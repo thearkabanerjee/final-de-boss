@@ -5,4 +5,10 @@
 
 import random
 
-print (random.random())
+
+a = random.random()
+if a <= 0.5 :
+    print ('Heads')
+else:
+    print ('Tails')
+# print (random.random())
