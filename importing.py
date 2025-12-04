@@ -1,3 +1,8 @@
-import math
+# import math
 
-print (math.log(10))
+# print (math.log(10))
+
+
+import random
+
+print (random.random())
