@@ -1,8 +1,13 @@
 # for loop to add the first n numbers 
 
-num : int  = int (input ('enter the number'))
-sum = 0
-for i in range (1,num +1):
-    sum += i
+# num : int  = int (input ('enter the number'))
+# sum = 0
+# for i in range (1,num +1):
+#     sum += i
 
-print (sum)
+# print (sum)
+
+num = int(input('enter the number bete: '))
+for i in range (1, num +1):
+    if i % 2 == 0:
+        print (i)
