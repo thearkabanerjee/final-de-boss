@@ -23,6 +23,10 @@
 
 
 
-num = int (input ('Enter the number: '))
-for i in range (num +1, 0, -1):
-    print (i)
+# num = int (input ('Enter the number: '))
+# for i in range (num +1, 0, -1):
+#     print (i)
+
+country = 'India'
+for i in country:
+    print (i , end= ' ')
