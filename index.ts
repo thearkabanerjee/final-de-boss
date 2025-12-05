@@ -1,3 +1,4 @@
-let a: string = 'hello world'
+function name_printing (name : string): string {
+    return (`Hi, ${name}`);
+}
 
-console.log (a)
