@@ -6,3 +6,7 @@ for i in range (1, 11):
 number = int (input ('enter the number: '))
 for i in range (1, 11):
     print ('%d x %d = %d'%(number, i, number * i))
+
+
+# for floats you do like this 
+
