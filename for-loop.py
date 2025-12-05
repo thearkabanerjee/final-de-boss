@@ -7,6 +7,7 @@
 
 # print (sum)
 
+# odd numbers
 num = int(input('enter the number bete: '))
 for i in range (1, num +1):
     if i % 2 != 0:
@@ -14,7 +15,7 @@ for i in range (1, num +1):
 
 
 
-
+# even numbers
 num = int(input('enter the number bete: '))
 for i in range (1, num +1):
     if i % 2 == 0:
