@@ -40,3 +40,12 @@
 # print (day, month, year, sep = '/')
 
 # for loop has its own better things
+
+# find factorial 
+
+number : int = int (input ('ENter the number you want '))
+factorial= 1
+for i in range (1,number +1):
+    factorial = factorial * i
+
+print (f'the factorial of the number is {factorial}')
