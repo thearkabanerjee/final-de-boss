@@ -45,7 +45,10 @@
 
 number : int = int (input ('ENter the number you want '))
 factorial= 1
-for i in range (1,number +1):
-    factorial = factorial * i
+if (number < 0):
+    print ('invalid')
+else:   
+    for i in range (1,number +1):
+        factorial = factorial * i
 
-print (f'the factorial of the number is {factorial}')
+    print (f'the factorial of the number is {factorial}')
