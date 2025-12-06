@@ -1,9 +1,14 @@
 def ispalindrome(number: int):
-    strnumber = str (number)
+    absnumber = abs(number)
+    strnumber = str (absnumber)
     reversed_num = strnumber [::-1]
     intreversed = int(reversed_num)
 
-    if (number == intreversed):
+    if (absnumber == intreversed):
         return ('Palindrome !')
     else:
         return ('Non-Palindrome !')
+    
+
+whatever: int = ispalindrome(int (input()))
+print (whatever)
