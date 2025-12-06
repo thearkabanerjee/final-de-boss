@@ -20,4 +20,4 @@
 
 # find the number of digits in a given number
 
-number: int = int (input())
+number: int = int (input('Enter the number: '))
