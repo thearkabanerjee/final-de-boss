@@ -39,3 +39,4 @@
 
 # print (day, month, year, sep = '/')
 
+# for loop has its own better things
